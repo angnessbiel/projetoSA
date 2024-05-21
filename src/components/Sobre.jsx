@@ -1,4 +1,4 @@
-function Sobre(){
+export default function Sobre(){
     return(
         <div className="sobre">
             <h1>Sobre </h1>
@@ -11,4 +11,3 @@ Não perca mais tempo! Venha fazer parte da comunidade do JaggerTV e mergulhe no
         </div>
     )
 }
-export default Sobre

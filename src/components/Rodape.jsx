@@ -1,4 +1,4 @@
-function Rodape(){
+export default function Rodape(){
     return(
         <footer>
             <p>Equipe JaggerTV</p>
@@ -6,5 +6,3 @@ function Rodape(){
         </footer>
     )
 }
-
-export default Rodape
