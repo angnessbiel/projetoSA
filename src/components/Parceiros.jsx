@@ -1,9 +1,9 @@
 export default function Parceiros(){
     return(
-        <div>
-        <div className="parceiros">
+        <div id="parceiros">
+        <div  className="parceiros">
             <h1>Principais Parceiros</h1>
-            <h2>CaseTV</h2>
+            <h2>CazeTV</h2>
             <img className="imagem" src="cazetv.PNG" alt="" />
             <p>Um dos principais criadores de conteudo brasileiro no meio esportivo.</p>
             <br />

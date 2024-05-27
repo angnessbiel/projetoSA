@@ -1,8 +1,15 @@
 export default function Cadastro(){
     return(
+        <div>
+            <header className="secondeHeader">
+            <div className="cab">
+            <img src="logo.png"></img>
+            <h1>JaggerTV</h1>
+            </div>       
+        </header>
     <section className="cadastro">
         <div>
-            <h2>Cadastro</h2>
+            <h2 className="tit">Cadastro</h2>
         </div>
         <div>
             <p>E-mail</p>
@@ -15,7 +22,10 @@ export default function Cadastro(){
             <br />
             <p>Confirmar Senha</p>
             <input type="text" />
+            <br />
+            <button>confirmar</button>
         </div>
     </section>
+    </div>
     )
 }

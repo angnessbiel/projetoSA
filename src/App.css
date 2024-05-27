@@ -1,5 +1,6 @@
+/*Header*/
 
-header {
+.firstHeader {
     font-family:'open_sansbold', Arial, sans-serif;
     background-color: #333;
     color: white;
@@ -12,6 +13,17 @@ header {
     left: 0;
     width: 100%;
     z-index: 100;
+}
+
+.secondeHeader{
+  font-family:'open_sansbold', Arial, sans-serif;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .cab{
@@ -39,15 +51,15 @@ header button{
     width: 120px;
     border: none;
 }
-  
+ 
+/*Banner*/
+
 .banner {
-    position: relative;
+    color: black;
 }
   
 .banner img {
-    width: 100%;
-    height: 700px;
-    object-fit: cover;
+    margin-top: 8%;
 
 }
 .banner h1{
@@ -58,6 +70,9 @@ header button{
     top: 43%;
     color: rgb(0, 0, 0);
 }
+
+/*Sobre*/
+
 .sobre {
     font-family:'open_sansbold', Arial, sans-serif;
     padding: 20px;
@@ -65,13 +80,102 @@ header button{
     text-align: center;
 
 }
-  
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
+
+/*Protótipo*/
+
+.linha1{
+  font-family:'open_sansbold', Arial, sans-serif;
+  font-size: smaller;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 10px 30px;
+  justify-content: center;
 }
+
+.linha2{
+  font-family:'open_sansbold', Arial, sans-serif;
+  font-size: smaller;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 10px 30px;
+  justify-content: center;
+
+}
+
+.galeria{
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family:'open_sansbold', Arial, sans-serif;
+
+}
+
+.galeria img{
+  width: 100%;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+/*Blog*/
+
+.blogH1{
+  text-align: center;
+  font-family:'open_sansbold', Arial, sans-serif;
+
+}
+
+.blog{
+  display: flex;
+  justify-content: space-around;
+  font-family:'open_sansbold', Arial, sans-serif;
+
+}
+
+.blogdiv{
+   background-color: white;
+   border-radius: 8%;
+   padding: 15px;
+   width: 400px;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+   text-align: center;
+   font-family:'open_sansbold', Arial, sans-serif;
+
+}
+
+.blogFoto{
+   height: 300px;
+   width: 350px;
+   border-radius: 8%;
+   display: flex;
+   margin: auto;
+}
+
+.Blog p{
+   font-size: 20px;
+   font-family:'open_sansbold', Arial, sans-serif;
+
+}
+
+.blogbotao{
+   background-color: aqua;
+   padding: 6px;
+   font-size: 14px;
+   width: 90px;
+   border: none;
+   border-radius: 15px;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+   font-family:'open_sansbold', Arial, sans-serif;
+
+}
+  
+/*Time*/
+
 .time{
     display: flex;
     align-items: center;
@@ -105,84 +209,103 @@ footer {
     border: 1px solid black;
 
 }
-.linha1{
-    font-family:'open_sansbold', Arial, sans-serif;
-    font-size: smaller;
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    padding: 10px 30px;
-    justify-content: center;
-}
 
-.linha2{
-    font-family:'open_sansbold', Arial, sans-serif;
-    font-size: smaller;
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    padding: 10px 30px;
-    justify-content: center;
-
-}
-
-.galeria{
-    color: rgb(0, 0, 0);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-family:'open_sansbold', Arial, sans-serif;
-
-}
-  
-.galeria img{
-    width: 100%;
-    border: 1px solid black;
-
-}
-  
-.parceiros {
-    padding: 20px;
-    font-family:'open_sansbold', Arial, sans-serif;
-
-
-}
-  
-.parceiros h1, .parceiros h2 {
-    color: #333;
-    font-family:'open_sansbold', Arial, sans-serif;
-
-}
-  
-.imagem {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid black;
-
-
-}
-  
 .time {
-    text-align: center;
-    padding: 20px;
-    font-family:'open_sansbold', Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  font-family:'open_sansbold', Arial, sans-serif;
 
 }
+
+/*Parceiros*/
+
+.parceiros {
+  padding: 20px;
+  font-family:'open_sansbold', Arial, sans-serif;
+
+
+}
+
+.parceiros h1, .parceiros h2 {
+  color: #333;
+  font-family:'open_sansbold', Arial, sans-serif;
+
+}
+
+.imagem {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid black;
+}
+
+
 
 .parceiros{
-    text-align: center;
-    font-family:'open_sansbold', Arial, sans-serif;
+  text-align: center;
+  font-family:'open_sansbold', Arial, sans-serif;
 }
 
 
 .imagem{
-    width: 25%;
-    height: 25%;
-    border-radius: 5%;
-    display: inline-block;
+  width: 25%;
+  height: 25%;
+  border-radius: 5%;
+  display: inline-block;
 }
+
+/*Adm*/
+
+.blogAdm{
+  display: flex;
+  justify-content: space-around;
+}
+
+.cadastrar{
+  background-color: aqua;
+  font-size: 18px;
+  width: 250px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.admdiv{
+ background-color: white;
+ border-radius: 8%;
+ padding: 15px;
+  width: 400px;
+ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+ text-align: center;
+}
+
+.admFoto{
+ height: 300px;
+ width: 350px;
+ border-radius: 8%;
+  display: flex;
+  margin: auto;
+}
+
+.Adm p{
+ font-size: 20px;
+}
+
+.admBotao{
+  background-color: aqua;
+  padding: 6px;
+  font-size: 14px;
+  width: 90px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/*Login*/
 
 .login{
+  position: absolute;
+  top: 30%;
+  left: 35%;
   background-color: #00C666;
   border-radius: 10px;
   padding: 15px;
@@ -190,8 +313,17 @@ footer {
   margin: auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
+
+.tit{
+  text-align: center;
+}
+
+/*Cadastro*/
 
 .cadastro{
+  position: absolute;
+  top: 30%;
+  left: 35%;
   background-color: #00C666;
   border-radius: 10px;
   padding: 15px;
@@ -200,6 +332,11 @@ footer {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+.titulo-pag{
+  margin-top: 140px;
+}
+
+/*Responsividade*/
 
 @media (max-width: 768px) {
 
@@ -244,6 +381,23 @@ footer {
       width: 45%;
       margin: 0 auto;
     }
+    
+    .blogAdm,
+  .blog {
+    flex-direction: column; 
+    align-items: center;    
+  }
+
+  .blogdiv,
+  .admdiv {
+    width: 100%;  
+  }
+
+  .Blog img,
+  .admFoto {
+    width: 100%;  
+  }
+
   }
   
   @media (min-width: 768px) and (max-width: 1024px) {
@@ -265,8 +419,25 @@ footer {
     .imagem {
       width: 30%;
     }
+
+    .blogAdm,
+  .blog {
+    flex-direction: column; 
+    align-items: center;    
+  }
+
+  .blogdiv,
+  .admdiv {
+    width: 100%;  
+  }
+
+  .Blog img,
+  .admFoto {
+    width: 100%;  
+  }
   }
   
+  /*Bagunça*/
 
   header {
     font-family: 'open_sansbold', Arial, sans-serif;
@@ -420,4 +591,10 @@ footer {
     border-radius: 5%;
     display: inline-block;
   }
-  
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

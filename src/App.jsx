@@ -6,6 +6,7 @@ import Galeria from './components/Galeria.jsx'
 import Sobre from './components/Sobre.jsx'
 import Time from './components/Time.jsx'
 import Parceiros from './components/Parceiros.jsx'
+import Blog from './components/Blog.jsx'
 
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
     <Cabecalho /> 
     <Banner />
     <Sobre />
-    <Time />
-    <Galeria /> 
+    <Galeria />
+    <Blog />
+    <Time /> 
     <Parceiros />
     <Rodape /> 
   </>

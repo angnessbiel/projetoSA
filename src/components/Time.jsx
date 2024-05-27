@@ -1,6 +1,6 @@
 function Time(){
     return(
-        <><div className="time">
+        <><div id="time"   className="time">
             <h1>Nosso time de desenvolvedores</h1>
         </div>
       <div className="">
