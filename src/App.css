@@ -163,9 +163,10 @@ header button{
 }
 
 .blogbotao{
-   background-color: aqua;
+   background-color: rgb(54, 54, 54);
    padding: 6px;
    font-size: 14px;
+   color: white;
    width: 90px;
    border: none;
    border-radius: 15px;
@@ -302,17 +303,20 @@ header button{
 
 /*Login*/
 
-.login{
-  position: absolute;
-  top: 30%;
-  left: 35%;
+.login {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: #00C666;
   border-radius: 10px;
   padding: 15px;
-  width: 500px;
-  margin: auto;
+  width: 80%;
+  max-width: 500px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  
 }
+
 
 .tit{
   text-align: center;
@@ -321,14 +325,15 @@ header button{
 /*Cadastro*/
 
 .cadastro{
-  position: absolute;
-  top: 30%;
-  left: 35%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: #00C666;
   border-radius: 10px;
   padding: 15px;
-  width: 500px;
-  margin: auto;
+  width: 80%;
+  max-width: 500px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
